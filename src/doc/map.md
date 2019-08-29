@@ -120,7 +120,7 @@ case class Student(number: Int, nickname: String)
 //省略課堂這個物件
 case class ClassStudent(classNumber: Int, studentNumber: Int)
 ```
-SQL應該會長這樣（另外在加上我們只要基數學生號這個條件）
+SQL應該會長這樣（另外在加上我們只要奇數學生號這個條件）
 ```sql
 
 SELECT s.* 
